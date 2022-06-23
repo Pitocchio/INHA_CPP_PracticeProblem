@@ -112,7 +112,12 @@ using namespace std;
 
 int main()
 {
-	
+	double dMpg(0);
+
+	cout << "Enter the MPG => ";
+	cin >> dMpg;
+
+	cout << (3.875 * dMpg) / (100 / 62.14);
 
 }
 //*/
